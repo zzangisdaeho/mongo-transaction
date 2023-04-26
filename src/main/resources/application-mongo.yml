@@ -1,0 +1,12 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      username: transaction-test
+      password: transaction-test
+      database: transaction-test
+      auto-index-creation: true
+#      uri: mongodb://transaction-test:transaction-test@localhost:27017/transaction-test?retryWrites=false
+
+#      authentication-database: admin
